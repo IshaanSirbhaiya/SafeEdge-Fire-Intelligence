@@ -14,7 +14,7 @@ SUPABASE_KEY = "***REMOVED-SUPABASE-KEY***"
 # 🚨 COMMAND CENTER OVERRIDE: SET THE ACTIVE FIRE HERE 🚨
 # Options: "The Hive", "North Spine", "SCBE", "Hall 2"
 # =========================================================
-ACTIVE_FIRE_NAME = "North Spine"
+ACTIVE_FIRE_NAME = "The Hive"
 # --- 2. ENGINE MATH & HARDCODED ZONES ---
 def calculate_distance(lat1, lon1, lat2, lon2):
     R = 6371000 
