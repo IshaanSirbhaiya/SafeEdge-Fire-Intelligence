@@ -20,12 +20,12 @@ load_dotenv()
 load_dotenv(Path(__file__).parent / ".env")
 
 # --- 1. CONFIGURATION & CREDENTIALS ---
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "***REMOVED-TELEGRAM-TOKEN***")
-bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN) if TELEGRAM_BOT_TOKEN else None
 
 REGISTERED_USERS = ["REMOVED_USER_ID_1", "REMOVED_USER_ID_2", "REMOVED_USER_ID_3", "REMOVED_USER_ID_4"]
-SUPABASE_URL = os.getenv("SUPABASE_URL", "https://removed-subdomain.supabase.co")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY", "***REMOVED-SUPABASE-KEY***")
+SUPABASE_URL = os.getenv("SUPABASE_URL", "")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY", "")
 
 DETECTION_API = os.getenv("DETECTION_API", "http://localhost:8001")
 
