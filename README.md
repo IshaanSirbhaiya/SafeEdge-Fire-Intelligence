@@ -1,6 +1,8 @@
 # SafeEdge - Edge-Based Fire Safety Intelligence System
 
-**DLW 2026 | Track 3: AI in Security | NTU Singapore**
+**DLW 2026 | Track 3: AI in Security | NTU Singapore | Finalist (Top 10)**
+
+▶️ **[Watch the demo video](https://www.youtube.com/watch?v=u_opG6K_39I&t=136s)**
 
 SafeEdge upgrades existing CCTV cameras with lightweight, on-device AI to detect fires **before they spread** - requiring zero new hardware, zero infrastructure changes, and zero cloud dependency. When fire or smoke is detected, the system generates risk-scored alerts, confirms with AI vision, triggers evacuation routing, and notifies residents via Telegram - all within seconds.
 
