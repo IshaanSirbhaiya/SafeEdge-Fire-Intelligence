@@ -10,6 +10,19 @@ SafeEdge upgrades existing CCTV cameras with lightweight, on-device AI to detect
 
 ---
 
+## See It In Action
+
+**1. Real-time fire detection with risk scoring + 5/8 confirmation**
+![Fire Detection](docs/screenshots/fire-detection.jpg)
+
+**2. Telegram evacuation bot with Google Maps routing to safe zones**
+![Telegram Evacuation Flow](docs/screenshots/telegram-evacuation.jpg)
+
+**3. Sentinel-Mesh Command Centre tracking evacuee status in real time**
+![Dashboard](docs/screenshots/dashboard.jpg)
+
+---
+
 ## For Judges: Quick Test (Single Command)
 
 **No API keys required.** Run from the project root:
