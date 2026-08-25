@@ -23,7 +23,7 @@ load_dotenv(Path(__file__).parent / ".env")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN) if TELEGRAM_BOT_TOKEN else None
 
-REGISTERED_USERS = ["REMOVED_USER_ID_1", "REMOVED_USER_ID_2", "REMOVED_USER_ID_3", "REMOVED_USER_ID_4"]
+REGISTERED_USERS = [uid.strip() for uid in os.getenv("REGISTERED_USERS", "").split(",") if uid.strip()]
 SUPABASE_URL = os.getenv("SUPABASE_URL", "")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY", "")
 
